@@ -13,9 +13,13 @@ var App = (function App() {
       window.close();
     });
 
-    renderCat(function(blob) {
-      // Here you can play with the blob!
-      // For example, returning this value from an activity ;)
+    // Add activity listener
+    window.navigator.mozSetMessageHandler('activity', function(activity) {
+      renderCat(function(blob) {
+        // Here you can play with the blob!
+        // For example, returning this value from an activity ;)
+        activity.postResult({blob: blob});
+      });
     });
   }
   

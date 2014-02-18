@@ -1,4 +1,11 @@
 {
   "name": "Prrrrr",
-  "launch_path": "/index.html"
+  "launch_path": "/index.html",
+  "activities": {
+    "pick": {
+      "href": "/index.html",
+      "disposition": "inline",
+      "returnValue": true
+    }
+  }
 }
