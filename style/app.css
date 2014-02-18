@@ -1,0 +1,26 @@
+html, body {
+  font-size: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #FFF;
+}
+
+.container {
+  margin: 3rem 1rem 3rem 1rem;
+  text-align: center;
+}
+
+.container img {
+  width: 225px;
+  height: 300px;
+}
+
+.hidden {
+  display: none;
+}
+
+.actions {
+  margin: 0 1rem 0 1rem;
+}
